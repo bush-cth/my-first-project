@@ -49,6 +49,9 @@ ul li {
   width: 776px;
   height: 333px;
   position: relative;
+
+}
+.hello {
   margin-bottom: 234px;
 }
 
@@ -179,6 +182,7 @@ ul li {
   width: 362px;
   height: auto;
   vertical-align: top;
+  padding-left: 17px;
 }
 
 .offers__item:last-child {
@@ -188,7 +192,7 @@ ul li {
 .offers__img {
   min-height: 76px;
   margin-top: 40px;
-  margin-left: 29px;
+  margin-bottom: 20px;
 }
 
 .offers__title {
@@ -196,9 +200,7 @@ ul li {
   font-size: 32px;
   line-height: 44px;
   color: #000;
-  margin-left: 22px;
-  margin-top: 22px;
-  margin-bottom: 17px;
+  margin-bottom: 18px;
 }
 
 .offers__content {
@@ -223,21 +225,19 @@ ul li {
 }
 
 .offers__feature:first-child {
-  margin-left: 22px;
   margin-right: 76px;
   width: 102px;
-  height: 41px;
+
 }
 
 .offers__feature:last-child {
   margin-right: 34px;
   margin-left: 0;
   width: 123px;
-  height: 41px;
+
 }
 
 .offers_text {
-  margin-left: 20px;
   margin-right: 34px;
   font-size: 14px;
   line-height: 22px;
@@ -250,7 +250,6 @@ ul li {
   color: #FF5500;
   border-radius: 35px;
   border: 2px solid #FF5500;
-  margin-left: 24px;
   margin-bottom: 53px;
   font-weight: 700;
   font-size: 14px;
@@ -389,10 +388,9 @@ ul li {
   padding-top: 83px;
   padding-bottom: 80px;
   width: 785px;
-  height: 455px;
   display: inline-block;
   vertical-align: top;
-  margin-left: -148px;
+  margin-left: -145px;
   margin-top: 97px;
   border-radius: 5px;
   line-height: 27px;
@@ -481,14 +479,10 @@ ul li {
 
 .contacts--footer {
   position: absolute;
-  top: 65px;
+  top: 44px;
+  right: 0;
 }
 
-.contacts__footer {
-  position: absolute;
-  line-height: 20px;
-  margin: -20px -9px 41px 29px;
-}
 
 .social__icon--telegram .social__img {
   background-image: url(./img/telegram.png);
