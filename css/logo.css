@@ -1,0 +1,16 @@
+.logo {
+  height: 46px;
+  padding: 100px;
+}
+
+.logo__pic {
+  width: 198px;
+  height: 46px;
+  padding: 100px;
+}
+
+.logo--footer {
+  top: 43px;
+  width: 198px;
+  height: 46px;
+}

@@ -1,0 +1,37 @@
+.paginator {
+  text-align: center;
+}
+
+.paginator_display, .paginator__item, .paginator__list {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.paginator__item {
+  font-weight: 700;
+}
+
+.paginator__number {
+  text-decoration: none;
+}
+
+.paginator_display {
+  margin-right: 25px;
+}
+
+.paginator__number {
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+  line-height: 32px;
+}
+
+.paginator__item--active .paginator__number {
+  background: #FF5500;
+}
+
+.paginator__item--active::before {
+  mask-image: url(../img/hand.png);
+}

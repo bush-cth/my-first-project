@@ -1,0 +1,23 @@
+.hello__conteiner {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.hello {
+  margin-bottom: 329px;
+}
+
+.hello__tile {
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.hello__subtitle {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 69px;
+}

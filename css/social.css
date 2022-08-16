@@ -1,0 +1,53 @@
+.social__menu {
+  padding-left: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social__img {
+  text-decoration: none;
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.social__icon {
+  margin-right: 7px;
+}
+
+.social__icon:last-child {
+  margin-right: 0;
+}
+
+.social__icon--telegram .social__img {
+  background-image: url(../img/telegram.png);
+}
+
+.social__icon--telegram .social__img:hover {
+  background-image: url(../img/t-hover.png);
+}
+
+.social__icon--vk .social__img {
+  background-image: url(../img/vk.png);
+}
+
+.social__icon--vk .social__img:hover {
+  background-image: url(../img/vk-hover.png);
+}
+
+.social__icon--fb .social__img {
+  background-image: url(../img/f.png);
+}
+
+.social__icon--fb .social__img:hover {
+  background-image: url(./img/fb-hover.png);
+}
+
+.social__icon--insta .social__img {
+  background-image: url(../img/in.png);
+}
+
+.social__icon--insta .social__img:hover {
+  background-image: url(../img/in-hover.png);
+}

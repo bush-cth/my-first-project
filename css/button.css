@@ -1,0 +1,45 @@
+.button {
+  background: #FF3D00;
+  border-radius: 35px;
+  text-decoration: none;
+  padding: 18px 53px;
+  font-size: 14px;
+  font-weight: 700;
+  align-items: center;
+  text-transform: uppercase;
+  position: absolute;
+  display: inline-block;
+}
+
+.button--main {
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.button--light {
+  background: #FFFFFF;
+  color: #FF5500;
+  border-radius: 35px;
+  border: 2px solid #FF5500;
+  margin-bottom: 53px;
+  font-weight: 700;
+  font-size: 14px;
+  align-items: center;
+  line-height: 19px;
+  width: 198px;
+  height: 55px;
+}
+
+.button--light:hover {
+  background: #FF5500;
+  color: #fff;
+}
+
+.button--about {
+  background: #FF5400;
+  width: 168px;
+  height: 55px;
+  align-items: center;
+  line-height: 19px;
+  padding: 18px 40px;
+}
